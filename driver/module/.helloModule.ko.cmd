@@ -1,0 +1,1 @@
+cmd_/home/yuyaolong/Desktop/1/kernel/module/helloModule.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-32-generic/scripts/module-common.lds --build-id  -o /home/yuyaolong/Desktop/1/kernel/module/helloModule.ko /home/yuyaolong/Desktop/1/kernel/module/helloModule.o /home/yuyaolong/Desktop/1/kernel/module/helloModule.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/yuyaolong/Desktop/1/kernel/module/add.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-32-generic/scripts/module-common.lds --build-id  -o /home/yuyaolong/Desktop/1/kernel/module/add.ko /home/yuyaolong/Desktop/1/kernel/module/add.o /home/yuyaolong/Desktop/1/kernel/module/add.mod.o
