@@ -32,7 +32,8 @@ void *thread_copy(void* arg) {
 
 int main(int argc, char const *argv[])
 {
-	int fdsrc, fddest, err, file_size, task_size, i;
+	int fdsrc, fddest, err, i;
+	unsigned long long file_size, task_size;
 	struct stat sbuf;
 	char *psrc, *pdest;
 	clock_t start_t, end_t;
